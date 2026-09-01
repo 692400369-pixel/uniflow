@@ -107,7 +107,7 @@ export class App implements OnDestroy {
   registerEmail = '';
   registerPassword = '';
 
-  showLogin = signal(false);
+  showLogin = signal(true);
   showRegister = signal(false);
 
   authLoading = signal(false);
